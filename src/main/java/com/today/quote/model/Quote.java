@@ -1,5 +1,8 @@
 package com.today.quote.model;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Quote {
     int id;
     String quote;
@@ -7,7 +10,18 @@ public class Quote {
 
     String tag;
 
-    int rating;
+    int likes;
+
+    public Quote() {
+    }
+
+    public Quote(int id, String quote, String author, String tag, int likes) {
+        this.id = id;
+        this.quote = quote;
+        this.author = author;
+        this.tag = tag;
+        this.likes = likes;
+    }
 
     public int getId() {
         return id;
@@ -17,7 +31,7 @@ public class Quote {
         this.id = id;
     }
 
-    public String getquote() {
+    public String getQuote() {
         return quote;
     }
 
@@ -41,11 +55,11 @@ public class Quote {
         this.tag = tag;
     }
 
-    public int getRating() {
-        return rating;
+    public int getLikes() {
+        return likes;
     }
 
-    public void setRating(int rating) {
-        this.rating = rating;
+    public void setLikes(int likes) {
+        this.likes = likes;
     }
 }

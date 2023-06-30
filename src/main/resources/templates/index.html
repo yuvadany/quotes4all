@@ -36,15 +36,18 @@
  <hr>
  <table style=" border: 1px solid beige;  width: 100%; "  >
      <caption style="color: darkmagenta; font-size: larger;align: left">Similar Quotes</caption>
+     <tbody>
      <tr>
          <th>Quote</th>
          <th>By</th>
          <th>Likes</th>
      </tr>
-     <tr>
-         <td style=" color:darkgreen"><span th:text="${QuoteOfToday}"></span></td>
-         <td ><span th:text="${Author}"></span></td>
+     <tr th:each="data : ${similarQuotes}">
+         <td th:text="${data.quote}" ></td>
+         <td th:text="${data.author}" ></td>
+         <td th:text="${data.likes}"></td>
      </tr>
+     </tbody>
  </table>
 </body>
 </html>
