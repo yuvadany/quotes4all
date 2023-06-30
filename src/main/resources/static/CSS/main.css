@@ -6,7 +6,7 @@
 body{
     color: #96D4D4;
 }
-table, th, td {
+table, th{
     border: 1px solid white;
     border-collapse: collapse;
     padding: 15px;
@@ -17,6 +17,11 @@ td {
     font-family: "Bernard MT Condensed";
     font-size: x-large;
     color: crimson;
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 15px;
+    width: 50%;
+    height: 75%;
 }
 td {
     font-family: "Berlin Sans FB";
