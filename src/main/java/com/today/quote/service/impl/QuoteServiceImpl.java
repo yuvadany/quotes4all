@@ -9,7 +9,9 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class QuoteServiceImpl implements QuoteService {
@@ -33,8 +35,16 @@ public class QuoteServiceImpl implements QuoteService {
                 .block();
     }
 
+
     @Override
-    public List<Quote> findAllByTag(String tag) {
-        return quotesRepository.findAll();
+    public List<Quote> findAllByTag(int id) {
+        List<Quote> similarQuotes = new ArrayList<>();
+        if (quotesRepository.findById(id).isPresent()) {
+            similarQuotes =  quotesRepository.findAllByTag(quotesRepository.findById(id).get().getTag());
+        } else {
+            similarQuotes.add(new Quote(3, "Have a nice day", "unknown", "challenge", 478));
+        }
+
+        return similarQuotes;
     }
 }

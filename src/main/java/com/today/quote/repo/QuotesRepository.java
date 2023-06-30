@@ -9,6 +9,6 @@ import java.util.List;
 @Repository
 public interface QuotesRepository extends JpaRepository<Quote, Integer> {
 
-    List<Quote> findAllByTag(int id);
+    List<Quote> findAllByTag(String tag);
 
 }

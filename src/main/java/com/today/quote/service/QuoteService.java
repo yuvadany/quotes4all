@@ -7,6 +7,5 @@ import java.util.List;
 public interface QuoteService {
 
     public Quote getQuote();
-
-    List<Quote> findAllByTag(String tag);
+    List<Quote> findAllByTag(int id);
 }
