@@ -2,8 +2,8 @@ package com.today.quote.model;
 
 public class Quote {
     int id;
-    String content;
-    String authorName;
+    String quote;
+    String author;
 
     public int getId() {
         return id;
@@ -13,19 +13,19 @@ public class Quote {
         this.id = id;
     }
 
-    public String getContent() {
-        return content;
+    public String getquote() {
+        return quote;
     }
 
-    public void setContent(String content) {
-        this.content = content;
+    public void setQuote(String quote) {
+        this.quote = quote;
     }
 
-    public String getAuthorName() {
-        return authorName;
+    public String getAuthor() {
+        return author;
     }
 
-    public void setAuthorName(String authorName) {
-        this.authorName = authorName;
+    public void setAuthor(String author) {
+        this.author = author;
     }
 }

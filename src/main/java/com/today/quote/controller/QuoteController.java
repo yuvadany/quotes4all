@@ -1,7 +1,9 @@
 package com.today.quote.controller;
 
+import com.today.quote.service.QuoteService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,13 +14,17 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping("/quotes/services")
 @Api("Quotes")
 public class QuoteController {
-
+@Autowired
+    QuoteService quoteService;
     @GetMapping("/quote")
     @ApiOperation(value = "Welcome Quote")
     public  ModelAndView getQuote(){
         var quote =  " Have a wonderful day...";
+        var quoteContent = quoteService.getQuote();
         ModelAndView modelAndView = new ModelAndView("index");
         modelAndView.addObject("quote",quote);
+        modelAndView.addObject("QuoteOfToday",quoteContent.getquote());
+        modelAndView.addObject("Author",quoteContent.getAuthor());
         return modelAndView;
     }
 }
