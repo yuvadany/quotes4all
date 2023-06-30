@@ -1,5 +1,6 @@
 package com.today.quote.config;
 
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,6 +16,7 @@ import springfox.documentation.service.ApiInfo;
 
 @Configuration
 @EnableSwagger2
+@ConditionalOnProperty(name="swagger.enabled", havingValue = "true", matchIfMissing = false)
 public class SwaggerConfig {
 
     @Bean
