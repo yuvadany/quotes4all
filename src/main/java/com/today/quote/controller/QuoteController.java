@@ -12,6 +12,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/quotes/services")
@@ -30,11 +31,11 @@ public class QuoteController {
         modelAndView.addObject("Author",quoteContent.getAuthor());
         modelAndView.addObject("id",quoteContent.getId());
         modelAndView.addObject("rating",quoteContent.getLikes());
-        List<Quote> similarQuotes = new ArrayList<>();
-        similarQuotes.add(new Quote(3, "Nice Day", "uv", "challenge", 2));
+        List<Quote> similarQuotes = quoteService.findAllByTag(quoteContent.getTag());
+        /* similarQuotes.add(new Quote(3, "Nice Day", "uv", "challenge", 2));
         similarQuotes.add(new Quote(7, "more failures teaches", "Uvab", "success", 2));
         similarQuotes.add(new Quote(8, "win the situation", "rt", "positive", 8));
-        similarQuotes.add(new Quote(9, "Progress always wins", "Iop", "failure", 12));
+        similarQuotes.add(new Quote(9, "Progress always wins", "Iop", "failure", 12));  */
         modelAndView.addObject("similarQuotes",similarQuotes);
         return modelAndView;
     }
