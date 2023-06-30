@@ -18,25 +18,26 @@ import java.util.Optional;
 @RequestMapping("/quotes/services")
 @Api("Quotes")
 public class QuoteController {
-@Autowired
+    @Autowired
     QuoteService quoteService;
+
     @GetMapping("/quote")
     @ApiOperation(value = "Welcome Quote")
-    public  ModelAndView getQuote(){
-        var quote =  " Have a wonderful day...";
+    public ModelAndView getQuote() {
+        var quote = " Have a wonderful day...";
         var quoteContent = quoteService.getQuote();
         ModelAndView modelAndView = new ModelAndView("index");
-        modelAndView.addObject("quote",quote);
-        modelAndView.addObject("QuoteOfToday",quoteContent.getQuote());
-        modelAndView.addObject("Author",quoteContent.getAuthor());
-        modelAndView.addObject("id",quoteContent.getId());
-        modelAndView.addObject("rating",quoteContent.getLikes());
+        modelAndView.addObject("quote", quote);
+        modelAndView.addObject("QuoteOfToday", quoteContent.getQuote());
+        modelAndView.addObject("Author", quoteContent.getAuthor());
+        modelAndView.addObject("id", quoteContent.getId());
+        modelAndView.addObject("rating", quoteContent.getLikes());
         List<Quote> similarQuotes = quoteService.findAllByTag(quoteContent.getTag());
         /* similarQuotes.add(new Quote(3, "Nice Day", "uv", "challenge", 2));
         similarQuotes.add(new Quote(7, "more failures teaches", "Uvab", "success", 2));
         similarQuotes.add(new Quote(8, "win the situation", "rt", "positive", 8));
         similarQuotes.add(new Quote(9, "Progress always wins", "Iop", "failure", 12));  */
-        modelAndView.addObject("similarQuotes",similarQuotes);
+        modelAndView.addObject("similarQuotes", similarQuotes);
         return modelAndView;
     }
 }

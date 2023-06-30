@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface QuotesRepository  extends JpaRepository<Quote, Integer> {
+public interface QuotesRepository extends JpaRepository<Quote, Integer> {
 
     List<Quote> findAllByTag(int id);
 

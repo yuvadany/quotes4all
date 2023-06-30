@@ -15,27 +15,26 @@ import java.util.List;
 public class QuoteServiceImpl implements QuoteService {
 
     @Autowired
-    QuotesRepository QuotesRepository;
+    QuotesRepository quotesRepository;
     @Autowired
     WebClient.Builder webClient;
     @Value("${url.one.quote}")
     private String quoteUrl;
+
     @Override
     public Quote getQuote() {
         var randomQuoteUrl = "";
-        randomQuoteUrl = quoteUrl+ new QuoteUtil().getRandomNumber();
-        var quote =   webClient.build()
+        randomQuoteUrl = quoteUrl + new QuoteUtil().getRandomNumber();
+        return webClient.build()
                 .get()
                 .uri(randomQuoteUrl)
                 .retrieve()
                 .bodyToMono(Quote.class)
                 .block();
-
-        return quote;
     }
 
     @Override
     public List<Quote> findAllByTag(String tag) {
-        return QuotesRepository.findAll();
+        return quotesRepository.findAll();
     }
 }
