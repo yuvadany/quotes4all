@@ -8,18 +8,20 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 
+@Entity
 public class Quote {
-
+@Id
     int id;
 
-    String quote;
-
+@Column
+String quote;
+    @Column
     String author;
 
-
+    @Column
     String tag;
 
-
+    @Column
     int likes;
 
     public Quote() {
