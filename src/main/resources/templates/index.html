@@ -9,7 +9,7 @@
 
  <br>
  <table  class="center">
-     <tr>
+     <tr >
          <th>Inspirational Quotes for today <div>
              <script>
                  date = new Date().toLocaleDateString();
@@ -21,14 +21,14 @@
          <td> </td>
      </tr>
                <tr>
-      <td><span th:text="${QuoteOfToday}"></span></td>
+      <td style=" color:darkgreen"><span th:text="${QuoteOfToday}"></span></td>
      </tr>
      <tr>
-        <td><div>
+        <td  style="font-size: medium"><div>
             <script>
                 document.write("-");
             </script>
-        </div><span th:text="${Author}"></span></td>
+        </div ><span th:text="${Author}"></span></td>
      </tr>
  </table>
 </body>

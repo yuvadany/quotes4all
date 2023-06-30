@@ -4,7 +4,7 @@
 }
 
 body{
-    color: #96D4D4;
+    color: orange;
 }
 table, th{
     border: 1px solid white;
@@ -17,7 +17,6 @@ td {
     font-family: "Bernard MT Condensed";
     font-size: x-large;
     color: crimson;
-    border: 1px solid white;
     border-collapse: collapse;
     padding: 15px;
     width: 50%;
