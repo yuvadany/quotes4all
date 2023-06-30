@@ -2,13 +2,23 @@ package com.today.quote.model;
 
 import org.springframework.stereotype.Component;
 
-@Component
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+
 public class Quote {
+
     int id;
+
     String quote;
+
     String author;
 
+
     String tag;
+
 
     int likes;
 

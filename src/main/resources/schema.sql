@@ -1,0 +1,1 @@
+create table quote (id int primary key,author varchar(255),likes int,quote  varchar(255), tag  varchar(255) );
