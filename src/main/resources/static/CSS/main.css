@@ -1,0 +1,27 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    color: #96D4D4;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 15px;
+    width: 50%;
+    height: 25%;
+}
+td {
+    font-family: "Bernard MT Condensed";
+    font-size: x-large;
+    color: crimson;
+}
+td {
+    font-family: "Berlin Sans FB";
+    font-size: x-large;
+}
+td {
+    text-align: center;
+}

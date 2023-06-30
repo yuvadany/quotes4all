@@ -2,20 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/main.css">
     <title>Quote</title>
 </head>
 <body>
+
  <br>
- <table>
+ <table  class="center">
      <tr>
-         <th>----Quotes-----</th>
+         <th>Inspirational Quotes for <div>
+             <script>
+                 date = new Date().toLocaleDateString();
+                 document.write(date);
+             </script>
+         </div></th>
      </tr>
      <tr>
          <td><span th:text="${QuoteOfToday}"></span></td>
      </tr>
-     <tr>
-         <td>--<span th:text="${Author}"></span></td>
-     </tr>
  </table>
+ <span th:text="${Author}"></span>
 </body>
 </html>
