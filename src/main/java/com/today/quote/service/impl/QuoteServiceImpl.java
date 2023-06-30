@@ -17,10 +17,11 @@ public class QuoteServiceImpl implements QuoteService {
     private String quoteUrl;
     @Override
     public Quote getQuote() {
-        quoteUrl = quoteUrl+"/4";
+        var randomQuoteUrl = "";
+        randomQuoteUrl = quoteUrl+ new QuoteUtil().getRandomNumber();
         var quote =   webClient.build()
                 .get()
-                .uri(quoteUrl )
+                .uri(randomQuoteUrl)
                 .retrieve()
                 .bodyToMono(Quote.class)
                 .block();
