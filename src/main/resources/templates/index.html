@@ -5,10 +5,17 @@
     <title>Quote</title>
 </head>
 <body>
- .... Quote Of the day...
  <br>
- <span th:text="${QuoteOfToday}"></span><br>
- --<span th:text="${Author}"></span>
-
+ <table>
+     <tr>
+         <th>----Quotes-----</th>
+     </tr>
+     <tr>
+         <td><span th:text="${QuoteOfToday}"></span></td>
+     </tr>
+     <tr>
+         <td>--<span th:text="${Author}"></span></td>
+     </tr>
+ </table>
 </body>
 </html>

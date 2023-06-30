@@ -4,7 +4,6 @@ import com.today.quote.service.QuoteService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -25,6 +24,8 @@ public class QuoteController {
         modelAndView.addObject("quote",quote);
         modelAndView.addObject("QuoteOfToday",quoteContent.getquote());
         modelAndView.addObject("Author",quoteContent.getAuthor());
+        modelAndView.addObject("id",quoteContent.getId());
+        modelAndView.addObject("rating",quoteContent.getRating());
         return modelAndView;
     }
 }

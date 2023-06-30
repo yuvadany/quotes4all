@@ -5,6 +5,10 @@ public class Quote {
     String quote;
     String author;
 
+    String tag;
+
+    int rating;
+
     public int getId() {
         return id;
     }
@@ -27,5 +31,21 @@ public class Quote {
 
     public void setAuthor(String author) {
         this.author = author;
+    }
+
+    public String getTag() {
+        return tag;
+    }
+
+    public void setTag(String tag) {
+        this.tag = tag;
+    }
+
+    public int getRating() {
+        return rating;
+    }
+
+    public void setRating(int rating) {
+        this.rating = rating;
     }
 }
