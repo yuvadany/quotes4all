@@ -22,10 +22,8 @@ public class QuoteController {
     @GetMapping("/quote")
     @ApiOperation(value = "Welcome Quote")
     public ModelAndView getQuote() {
-        var quote = " Have a wonderful day...";
         var quoteContent = quoteService.getQuote();
         ModelAndView modelAndView = new ModelAndView("index");
-        modelAndView.addObject("quote", quote);
         modelAndView.addObject("QuoteOfToday", quoteContent.getQuote());
         modelAndView.addObject("Author", quoteContent.getAuthor());
         modelAndView.addObject("id", quoteContent.getId());
