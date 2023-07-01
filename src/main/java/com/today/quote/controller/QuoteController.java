@@ -31,7 +31,11 @@ public class QuoteController {
         modelAndView.addObject("id", quoteContent.getId());
         modelAndView.addObject("rating", quoteContent.getLikes());
         List<Quote> similarQuotes = quoteService.findAllByTag(quoteContent.getId());
-        modelAndView.addObject("similarQuotes", similarQuotes);
+        if (!similarQuotes.isEmpty()) {
+            modelAndView.addObject("similarQuotes", similarQuotes);
+        } else {
+            modelAndView.addObject("similarQuotes", "No Similar Quotes");
+        }
         return modelAndView;
     }
 }

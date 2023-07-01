@@ -34,6 +34,7 @@
 <br>
  <br>
  <hr>
+ <th:block th:unless="${similarQuotes == 'No Similar Quotes'}">
  <table style=" border: 1px solid beige;  width: 100%; "  >
      <caption style="color: darkmagenta; font-size: larger;align: left">Similar Quotes</caption>
      <tbody>
@@ -49,5 +50,6 @@
      </tr>
      </tbody>
  </table>
+ </th:block>
 </body>
 </html>

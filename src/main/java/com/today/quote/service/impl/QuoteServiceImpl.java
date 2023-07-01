@@ -40,11 +40,11 @@ public class QuoteServiceImpl implements QuoteService {
     public List<Quote> findAllByTag(int id) {
         List<Quote> similarQuotes = new ArrayList<>();
         if (quotesRepository.findById(id).isPresent()) {
-            similarQuotes =  quotesRepository.findAllByTag(quotesRepository.findById(id).get().getTag());
-        } else {
-            similarQuotes.add(new Quote(3, "Have a nice day", "unknown", "challenge", 478));
+            Optional<Quote> quoteDisplayed = quotesRepository.findById(id);
+            if(quoteDisplayed.isPresent() && !quoteDisplayed.get().getTag().isEmpty()){
+                similarQuotes =  quotesRepository.findAllByTag(quotesRepository.findById(id).get().getTag());
+            }
         }
-
         return similarQuotes;
     }
 }
