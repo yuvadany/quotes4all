@@ -22,7 +22,7 @@ public class QuoteController {
     @Autowired
     QuoteService quoteService;
     @GetMapping("/quote")
-    @ApiOperation(value = "Welcome Quote")
+    @ApiOperation(value = "Get Random Quote and Similar quotes")
     public ModelAndView getQuote() {
         var quoteContent = quoteService.getQuote();
         ModelAndView modelAndView = new ModelAndView("index");
