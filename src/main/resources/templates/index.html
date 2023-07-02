@@ -6,7 +6,7 @@
     <title>Quote</title>
 </head>
 <body>
-
+<th:block th:unless="${error == 'NotFound'}">
  <br>
  <table  class="center">
      <tr >
@@ -51,5 +51,7 @@
      </tbody>
  </table>
  </th:block>
+</th:block>
+<span th:text="${error_quote}" class="error"></span>
 </body>
 </html>

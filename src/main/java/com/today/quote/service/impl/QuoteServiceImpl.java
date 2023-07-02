@@ -6,11 +6,14 @@ import com.today.quote.service.QuoteService;
 import com.today.quote.util.QuoteUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
+import reactor.core.publisher.Mono;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Optional;
 
 @Service
@@ -31,6 +34,8 @@ public class QuoteServiceImpl implements QuoteService {
                 .get()
                 .uri(randomQuoteUrl)
                 .retrieve()
+                .onStatus(HttpStatus::is4xxClientError,clientResponse ->  Mono.error(new NoSuchElementException()))
+                .onStatus(HttpStatus::is5xxServerError,clientResponse -> Mono.error(new NoSuchElementException()))
                 .bodyToMono(Quote.class)
                 .block();
     }

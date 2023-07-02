@@ -29,3 +29,10 @@ td {
 td {
     text-align: center;
 }
+
+.error {
+    margin: 200px 100px 150px 200px;
+    font-size: x-large;
+    color: crimson;
+    font-family: Calibri;
+}
