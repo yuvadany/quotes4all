@@ -19,6 +19,7 @@ import java.util.Optional;
 @Service
 public class QuoteServiceImpl implements QuoteService {
 
+
     @Autowired
     QuotesRepository quotesRepository;
     @Autowired
@@ -34,8 +35,8 @@ public class QuoteServiceImpl implements QuoteService {
                 .get()
                 .uri(randomQuoteUrl)
                 .retrieve()
-                .onStatus(HttpStatus::is4xxClientError,clientResponse ->  Mono.error(new NoSuchElementException()))
-                .onStatus(HttpStatus::is5xxServerError,clientResponse -> Mono.error(new NoSuchElementException()))
+                .onStatus(HttpStatus::is4xxClientError, clientResponse -> Mono.error(new NoSuchElementException()))
+                .onStatus(HttpStatus::is5xxServerError, clientResponse -> Mono.error(new NoSuchElementException()))
                 .bodyToMono(Quote.class)
                 .block();
     }
@@ -46,8 +47,8 @@ public class QuoteServiceImpl implements QuoteService {
         List<Quote> similarQuotes = new ArrayList<>();
         if (quotesRepository.findById(id).isPresent()) {
             Optional<Quote> quoteDisplayed = quotesRepository.findById(id);
-            if(quoteDisplayed.isPresent() && !quoteDisplayed.get().getTag().isEmpty()){
-                similarQuotes =  quotesRepository.findAllByTag(quotesRepository.findById(id).get().getTag());
+            if (quoteDisplayed.isPresent() && !quoteDisplayed.get().getTag().isEmpty()) {
+                similarQuotes = quotesRepository.findAllByTag(quotesRepository.findById(id).get().getTag());
             }
         }
         return similarQuotes;
