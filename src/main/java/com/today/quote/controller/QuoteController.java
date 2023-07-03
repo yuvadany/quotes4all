@@ -42,7 +42,7 @@ public class QuoteController {
             }
             return modelAndView;
         } catch (Exception exception) {
-            logger.error(exception.getMessage());
+            logger.error(exception.toString());
             throw new NoSuchElementException();
         }
     }
