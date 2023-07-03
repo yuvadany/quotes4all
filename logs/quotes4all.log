@@ -1,0 +1,117 @@
+2023-07-03 00:02:34,840 INFO com.today.quote.Quotes4allApplicationTests [Test worker] Starting Quotes4allApplicationTests using Java 17.0.7 on SNPDENB1NWYHG3 with PID 34360 (started by SJagadoss in C:\programs\intelij\quotes4all)
+2023-07-03 00:02:34,845 DEBUG com.today.quote.Quotes4allApplicationTests [Test worker] Running with Spring Boot v2.7.14-SNAPSHOT, Spring v5.3.28
+2023-07-03 00:02:34,845 INFO com.today.quote.Quotes4allApplicationTests [Test worker] No active profile set, falling back to 1 default profile: "default"
+2023-07-03 00:02:38,421 INFO com.today.quote.Quotes4allApplicationTests [Test worker] Started Quotes4allApplicationTests in 3.775 seconds (JVM running for 4.834)
+2023-07-03 00:02:59,866 INFO com.today.quote.Quotes4allApplication [main] Starting Quotes4allApplication using Java 17.0.7 on SNPDENB1NWYHG3 with PID 18460 (C:\programs\intelij\quotes4all\build\classes\java\main started by SJagadoss in C:\programs\intelij\quotes4all)
+2023-07-03 00:02:59,867 DEBUG com.today.quote.Quotes4allApplication [main] Running with Spring Boot v2.7.14-SNAPSHOT, Spring v5.3.28
+2023-07-03 00:02:59,867 INFO com.today.quote.Quotes4allApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-03 00:03:01,995 INFO com.today.quote.Quotes4allApplication [main] Started Quotes4allApplication in 2.342 seconds (JVM running for 2.889)
+2023-07-03 00:22:59,252 INFO com.today.quote.Quotes4allApplication [main] Starting Quotes4allApplication using Java 17.0.7 on SNPDENB1NWYHG3 with PID 32888 (C:\programs\intelij\quotes4all\build\classes\java\main started by SJagadoss in C:\programs\intelij\quotes4all)
+2023-07-03 00:22:59,254 DEBUG com.today.quote.Quotes4allApplication [main] Running with Spring Boot v2.7.14-SNAPSHOT, Spring v5.3.28
+2023-07-03 00:22:59,255 INFO com.today.quote.Quotes4allApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-03 00:23:01,349 INFO com.today.quote.Quotes4allApplication [main] Started Quotes4allApplication in 2.298 seconds (JVM running for 2.841)
+2023-07-03 00:23:09,779 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-4] No Similar Quotes found
+2023-07-03 00:23:10,083 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-5] No Similar Quotes found
+2023-07-03 00:23:10,392 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-7] No Similar Quotes found
+2023-07-03 00:24:23,203 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-1] No Similar Quotes found
+2023-07-03 00:56:16,995 INFO com.today.quote.Quotes4allApplicationTests [Test worker] Starting Quotes4allApplicationTests using Java 17.0.7 on SNPDENB1NWYHG3 with PID 5076 (started by SJagadoss in C:\programs\intelij\quotes4all)
+2023-07-03 00:56:16,997 DEBUG com.today.quote.Quotes4allApplicationTests [Test worker] Running with Spring Boot v2.7.14-SNAPSHOT, Spring v5.3.28
+2023-07-03 00:56:16,997 INFO com.today.quote.Quotes4allApplicationTests [Test worker] No active profile set, falling back to 1 default profile: "default"
+2023-07-03 00:56:20,333 INFO com.today.quote.Quotes4allApplicationTests [Test worker] Started Quotes4allApplicationTests in 3.519 seconds (JVM running for 4.5)
+2023-07-03 00:56:56,641 INFO com.today.quote.Quotes4allApplicationTests [Test worker] Starting Quotes4allApplicationTests using Java 17.0.7 on SNPDENB1NWYHG3 with PID 24256 (started by SJagadoss in C:\programs\intelij\quotes4all)
+2023-07-03 00:56:56,642 DEBUG com.today.quote.Quotes4allApplicationTests [Test worker] Running with Spring Boot v2.7.14-SNAPSHOT, Spring v5.3.28
+2023-07-03 00:56:56,642 INFO com.today.quote.Quotes4allApplicationTests [Test worker] No active profile set, falling back to 1 default profile: "default"
+2023-07-03 00:57:00,374 INFO com.today.quote.Quotes4allApplicationTests [Test worker] Started Quotes4allApplicationTests in 3.917 seconds (JVM running for 4.908)
+2023-07-03 00:58:48,685 INFO com.today.quote.Quotes4allApplicationTests [Test worker] Starting Quotes4allApplicationTests using Java 17.0.7 on SNPDENB1NWYHG3 with PID 26496 (started by SJagadoss in C:\programs\intelij\quotes4all)
+2023-07-03 00:58:48,687 DEBUG com.today.quote.Quotes4allApplicationTests [Test worker] Running with Spring Boot v2.7.14-SNAPSHOT, Spring v5.3.28
+2023-07-03 00:58:48,688 INFO com.today.quote.Quotes4allApplicationTests [Test worker] No active profile set, falling back to 1 default profile: "default"
+2023-07-03 00:58:52,048 INFO com.today.quote.Quotes4allApplicationTests [Test worker] Started Quotes4allApplicationTests in 3.559 seconds (JVM running for 4.666)
+2023-07-03 00:59:48,395 INFO com.today.quote.Quotes4allApplicationTests [Test worker] Starting Quotes4allApplicationTests using Java 17.0.7 on SNPDENB1NWYHG3 with PID 34636 (started by SJagadoss in C:\programs\intelij\quotes4all)
+2023-07-03 00:59:48,398 DEBUG com.today.quote.Quotes4allApplicationTests [Test worker] Running with Spring Boot v2.7.14-SNAPSHOT, Spring v5.3.28
+2023-07-03 00:59:48,398 INFO com.today.quote.Quotes4allApplicationTests [Test worker] No active profile set, falling back to 1 default profile: "default"
+2023-07-03 00:59:51,848 INFO com.today.quote.Quotes4allApplicationTests [Test worker] Started Quotes4allApplicationTests in 3.638 seconds (JVM running for 4.62)
+2023-07-03 01:00:31,309 INFO com.today.quote.Quotes4allApplicationTests [Test worker] Starting Quotes4allApplicationTests using Java 17.0.7 on SNPDENB1NWYHG3 with PID 30628 (started by SJagadoss in C:\programs\intelij\quotes4all)
+2023-07-03 01:00:31,311 DEBUG com.today.quote.Quotes4allApplicationTests [Test worker] Running with Spring Boot v2.7.14-SNAPSHOT, Spring v5.3.28
+2023-07-03 01:00:31,311 INFO com.today.quote.Quotes4allApplicationTests [Test worker] No active profile set, falling back to 1 default profile: "default"
+2023-07-03 01:00:34,740 INFO com.today.quote.Quotes4allApplicationTests [Test worker] Started Quotes4allApplicationTests in 3.632 seconds (JVM running for 4.616)
+2023-07-03 01:06:58,107 INFO com.today.quote.Quotes4allApplicationTests [Test worker] Starting Quotes4allApplicationTests using Java 17.0.7 on SNPDENB1NWYHG3 with PID 16080 (started by SJagadoss in C:\programs\intelij\quotes4all)
+2023-07-03 01:06:58,108 DEBUG com.today.quote.Quotes4allApplicationTests [Test worker] Running with Spring Boot v2.7.14-SNAPSHOT, Spring v5.3.28
+2023-07-03 01:06:58,109 INFO com.today.quote.Quotes4allApplicationTests [Test worker] No active profile set, falling back to 1 default profile: "default"
+2023-07-03 01:07:01,390 INFO com.today.quote.Quotes4allApplicationTests [Test worker] Started Quotes4allApplicationTests in 3.467 seconds (JVM running for 4.461)
+2023-07-03 01:07:20,352 INFO com.today.quote.Quotes4allApplication [main] Starting Quotes4allApplication using Java 17.0.7 on SNPDENB1NWYHG3 with PID 21248 (C:\programs\intelij\quotes4all\build\classes\java\main started by SJagadoss in C:\programs\intelij\quotes4all)
+2023-07-03 01:07:20,353 DEBUG com.today.quote.Quotes4allApplication [main] Running with Spring Boot v2.7.14-SNAPSHOT, Spring v5.3.28
+2023-07-03 01:07:20,353 INFO com.today.quote.Quotes4allApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-03 01:07:22,404 INFO com.today.quote.Quotes4allApplication [main] Started Quotes4allApplication in 2.296 seconds (JVM running for 2.894)
+2023-07-03 01:07:40,162 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-1] No Similar Quotes found
+2023-07-03 01:07:42,540 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-5] No Similar Quotes found
+2023-07-03 01:07:43,359 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-6] No Similar Quotes found
+2023-07-03 01:07:43,973 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-3] No Similar Quotes found
+2023-07-03 01:07:44,895 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-9] No Similar Quotes found
+2023-07-03 01:07:45,202 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-8] No Similar Quotes found
+2023-07-03 01:07:45,509 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-10] No Similar Quotes found
+2023-07-03 01:07:45,813 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-2] No Similar Quotes found
+2023-07-03 01:07:46,224 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-1] No Similar Quotes found
+2023-07-03 01:07:46,947 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-5] No Similar Quotes found
+2023-07-03 01:07:47,659 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-3] No Similar Quotes found
+2023-07-03 01:07:47,966 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-7] No Similar Quotes found
+2023-07-03 01:07:48,275 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-9] No Similar Quotes found
+2023-07-03 01:07:48,580 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-8] No Similar Quotes found
+2023-07-03 01:07:49,295 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-2] No Similar Quotes found
+2023-07-03 01:07:49,605 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-1] No Similar Quotes found
+2023-07-03 01:07:49,911 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-4] No Similar Quotes found
+2023-07-03 01:07:50,523 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-6] No Similar Quotes found
+2023-07-03 01:07:50,831 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-3] No Similar Quotes found
+2023-07-03 01:07:51,857 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-8] No Similar Quotes found
+2023-07-03 01:07:52,471 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-2] No Similar Quotes found
+2023-07-03 01:07:52,880 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-1] No Similar Quotes found
+2023-07-03 01:07:53,289 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-4] No Similar Quotes found
+2023-07-03 01:07:53,700 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-5] No Similar Quotes found
+2023-07-03 01:07:54,007 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-6] No Similar Quotes found
+2023-07-03 01:07:54,313 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-3] No Similar Quotes found
+2023-07-03 01:07:54,620 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-7] No Similar Quotes found
+2023-07-03 01:07:55,133 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-9] No Similar Quotes found
+2023-07-03 01:07:55,442 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-8] No Similar Quotes found
+2023-07-03 01:07:55,748 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-10] No Similar Quotes found
+2023-07-03 01:07:56,055 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-2] No Similar Quotes found
+2023-07-03 01:07:56,360 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-1] No Similar Quotes found
+2023-07-03 01:07:56,771 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-4] No Similar Quotes found
+2023-07-03 01:07:57,079 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-5] No Similar Quotes found
+2023-07-03 01:07:57,385 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-6] No Similar Quotes found
+2023-07-03 01:07:57,796 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-3] No Similar Quotes found
+2023-07-03 01:07:59,173 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-8] No Similar Quotes found
+2023-07-03 01:07:59,640 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-10] No Similar Quotes found
+2023-07-03 01:07:59,945 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-2] No Similar Quotes found
+2023-07-03 01:08:00,559 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-1] No Similar Quotes found
+2023-07-03 01:08:00,968 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-4] No Similar Quotes found
+2023-07-03 01:08:01,995 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-3] No Similar Quotes found
+2023-07-03 01:08:02,299 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-7] No Similar Quotes found
+2023-07-03 01:08:02,711 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-9] No Similar Quotes found
+2023-07-03 01:08:03,017 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-8] No Similar Quotes found
+2023-07-03 01:08:03,426 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-10] No Similar Quotes found
+2023-07-03 01:08:03,702 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-2] No Similar Quotes found
+2023-07-03 01:08:04,041 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-1] No Similar Quotes found
+2023-07-03 01:08:04,677 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-4] No Similar Quotes found
+2023-07-03 01:08:05,065 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-5] No Similar Quotes found
+2023-07-03 01:12:40,323 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-7] No Similar Quotes found
+2023-07-03 22:21:24,704 INFO com.today.quote.Quotes4allApplication [main] Starting Quotes4allApplication using Java 17.0.7 on SNPDENB1NWYHG3 with PID 2744 (C:\programs\intelij\quotes4all\build\classes\java\main started by SJagadoss in C:\programs\intelij\quotes4all)
+2023-07-03 22:21:24,705 DEBUG com.today.quote.Quotes4allApplication [main] Running with Spring Boot v2.7.14-SNAPSHOT, Spring v5.3.28
+2023-07-03 22:21:24,705 INFO com.today.quote.Quotes4allApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-03 22:21:27,034 INFO com.today.quote.Quotes4allApplication [main] Started Quotes4allApplication in 2.588 seconds (JVM running for 3.24)
+2023-07-03 22:21:47,393 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-1] No Similar Quotes found
+2023-07-03 22:24:52,704 INFO com.today.quote.controller.QuoteController [http-nio-8989-exec-7] No Similar Quotes found
+2023-07-03 22:26:58,137 INFO com.today.quote.Quotes4allApplication [main] Starting Quotes4allApplication using Java 17.0.7 on SNPDENB1NWYHG3 with PID 27208 (C:\programs\intelij\quotes4all\build\classes\java\main started by SJagadoss in C:\programs\intelij\quotes4all)
+2023-07-03 22:26:58,138 DEBUG com.today.quote.Quotes4allApplication [main] Running with Spring Boot v2.7.14-SNAPSHOT, Spring v5.3.28
+2023-07-03 22:26:58,139 INFO com.today.quote.Quotes4allApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-03 22:27:00,219 INFO com.today.quote.Quotes4allApplication [main] Started Quotes4allApplication in 2.28 seconds (JVM running for 2.822)
+2023-07-03 22:27:24,518 ERROR com.today.quote.controller.QuoteController [http-nio-8989-exec-1] java.util.NoSuchElementException
+2023-07-03 22:27:24,518 ERROR com.today.quote.advice.ExceptionAdvice [http-nio-8989-exec-1] Quote Server is not responding
+2023-07-03 22:29:26,905 INFO com.today.quote.Quotes4allApplication [main] Starting Quotes4allApplication using Java 17.0.7 on SNPDENB1NWYHG3 with PID 35524 (C:\programs\intelij\quotes4all\build\classes\java\main started by SJagadoss in C:\programs\intelij\quotes4all)
+2023-07-03 22:29:26,906 DEBUG com.today.quote.Quotes4allApplication [main] Running with Spring Boot v2.7.14-SNAPSHOT, Spring v5.3.28
+2023-07-03 22:29:26,907 INFO com.today.quote.Quotes4allApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-03 22:29:28,953 INFO com.today.quote.Quotes4allApplication [main] Started Quotes4allApplication in 2.24 seconds (JVM running for 2.772)
+2023-07-03 22:29:30,477 ERROR com.today.quote.controller.QuoteController [http-nio-8989-exec-1] org.springframework.web.reactive.function.client.WebClientRequestException: Failed to resolve 'sdsddummyjson.com' [A(1), AAAA(28)] after 6 queries ; nested exception is java.net.UnknownHostException: Failed to resolve 'sdsddummyjson.com' [A(1), AAAA(28)] after 6 queries 
+2023-07-03 22:29:30,478 ERROR com.today.quote.advice.ExceptionAdvice [http-nio-8989-exec-1] Quote Server is not responding
+2023-07-03 22:30:18,494 INFO com.today.quote.Quotes4allApplication [main] Starting Quotes4allApplication using Java 17.0.7 on SNPDENB1NWYHG3 with PID 40112 (C:\programs\intelij\quotes4all\build\classes\java\main started by SJagadoss in C:\programs\intelij\quotes4all)
+2023-07-03 22:30:18,495 DEBUG com.today.quote.Quotes4allApplication [main] Running with Spring Boot v2.7.14-SNAPSHOT, Spring v5.3.28
+2023-07-03 22:30:18,496 INFO com.today.quote.Quotes4allApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-07-03 22:30:20,502 INFO com.today.quote.Quotes4allApplication [main] Started Quotes4allApplication in 2.205 seconds (JVM running for 2.76)
